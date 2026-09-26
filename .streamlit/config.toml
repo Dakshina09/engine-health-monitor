@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+baseRadius = "small"
+
+[client]
+# hide the Deploy button and developer menu from visitors
+toolbarMode = "viewer"
+
+[browser]
+# Streamlit usage statistics off (the privacy policy relies on this)
+gatherUsageStats = false
+
+[server]
+headless = true
